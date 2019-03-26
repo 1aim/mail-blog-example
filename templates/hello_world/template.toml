@@ -1,0 +1,13 @@
+name = "email_hallo_world"
+subject = "Greeting of {{data.name}}."
+
+[[bodies]]
+path = "html_body.hbs"
+media_type = "text/html; charset=utf-8"
+
+  [bodies.embeddings]
+  logo = "./logo.png"
+
+[[bodies]]
+path = "plain_body.hbs"
+media_type = "text/plain; charset=utf-8"

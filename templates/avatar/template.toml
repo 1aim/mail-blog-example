@@ -1,0 +1,6 @@
+name = "email_avatar"
+subject = "Your new avatar"
+
+[[bodies]]
+path = "html_body.hbs"
+media_type = "text/html; charset=utf-8"
